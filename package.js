@@ -1,7 +1,7 @@
 Package.describe({
   name: 'goooseman:eslint',
-  version: '2.1.0',
-  summary: 'The pluggable linting utility for JavaScript and JSX.',
+  version: '2.1.0_1',
+  summary: 'ESLint v2 for use with meteor lint',
   documentation: 'README.md',
   git: 'https://github.com/goooseman/meteor-eslint.git'
 });
