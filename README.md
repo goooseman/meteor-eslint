@@ -10,10 +10,14 @@ $ meteor add goooseman:eslint
 
 ## Usage
 
-Add an `.eslintrc` file to your project root (https://gist.github.com/goooseman/8fc2e0c53f806808747c)[example]
+Add an `.eslintrc` file to your project root. ([Example](https://gist.github.com/goooseman/8fc2e0c53f806808747c))
 
 Then use `meteor lint` to lint your project.
 
 ### License
 
 MIT
+
+### Thank to
+
+[dburles](https://github.com/dburles/meteor-eslint)
