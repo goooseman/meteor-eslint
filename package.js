@@ -1,9 +1,9 @@
 Package.describe({
-  name: 'dburles:eslint',
-  version: '1.0.0',
+  name: 'goooseman:eslint',
+  version: '2.1.0',
   summary: 'The pluggable linting utility for JavaScript and JSX.',
   documentation: 'README.md',
-  git: 'https://github.com/dburles/meteor-eslint.git'
+  git: 'https://github.com/goooseman/meteor-eslint.git'
 });
 
 Package.registerBuildPlugin({
@@ -12,7 +12,7 @@ Package.registerBuildPlugin({
     'plugin/eslint.js'
   ],
   npmDependencies: {
-    "eslint": "1.7.2",
+    "eslint": "2.1.0",
     "strip-json-comments": "1.0.4"
   }
 });
@@ -23,5 +23,5 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('dburles:eslint');
+  api.use('goooseman:eslint');
 });

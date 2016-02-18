@@ -5,12 +5,14 @@ The pluggable linting utility for JavaScript and JSX. Package source adapted fro
 ## Installation
 
 ```sh
-$ meteor add dburles:eslint
+$ meteor add goooseman:eslint
 ```
 
 ## Usage
 
-Add an `.eslintrc` file to your project root. Here's a slightly modifed version of the Meteor configuration https://gist.github.com/dburles/a2f7ea77189b268b660d
+Add an `.eslintrc` file to your project root (https://gist.github.com/goooseman/8fc2e0c53f806808747c)[example]
+
+Then use `meteor lint` to lint your project.
 
 ### License
 
